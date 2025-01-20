@@ -1,0 +1,2 @@
+# Swift Optional Value Handling in Calculations
+This example demonstrates a common error in Swift when working with optional values. The `calculateAreaWithOptional` function handles optional `width` and `height` parameters, but it can return `nil` if either parameter is `nil`. This can lead to unexpected behavior if the returned value isn't checked for `nil`. The solution shows how to correctly handle optional values in this scenario, ensuring that the calculation only proceeds if both values are non-nil.
